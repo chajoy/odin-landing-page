@@ -1,9 +1,10 @@
 :root{
     --bright-blue: #3882F6;
     --bright-blue-highlight: #5694f6;
-    --grey: #E5E7Eb;
+    --grey: #E5E7EB;
     --dark-grey: #B8B8B8;
     --dark-blue: #1F2937;
+    --white: #F9FAF8;
 }
 
 * {
@@ -19,7 +20,7 @@ body {
 
 .section-top {
     background: var(--dark-blue);
-    color: white;
+    color: var(--white);
     display: flex;
     flex-direction: column;
 }
@@ -41,8 +42,14 @@ header ul {
 header .logo {
     margin-right: auto;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 24px;
+    color: var(--white);
     user-select: none;
+}
+
+header li:not(.logo) {
+    color: var(--grey);
+    font-size: 18px;
 }
 
 header li:not(.logo):hover {
@@ -68,11 +75,12 @@ header li:not(.logo):hover {
 }
 
 .feature-text h1{
-    font-size: 2rem;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .feature-text button {
-    color: white;
+    color: var(--white);
     background-color: var(--bright-blue);
     border: none;
     padding: 10px 20px;
@@ -102,7 +110,9 @@ header li:not(.logo):hover {
 }
 
 .section-middle-top h1 {
-    font-size: 2rem;
+    font-size: 36px;
+    color: var(--dark-blue);
+    font-weight: 900;
     margin-top: 50px;
 }
 
@@ -147,7 +157,9 @@ header li:not(.logo):hover {
 
 .quote blockquote {
     font-style: italic;
-    font-size: 2rem;
+    color: var(--dark-blue);
+    font-weight: lighter;
+    font-size: 36px;
 }
 
 .quote p {
@@ -169,7 +181,7 @@ header li:not(.logo):hover {
 }
 
 .banner {
-    color: white;
+    color: var(--white);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -184,7 +196,7 @@ header li:not(.logo):hover {
 .banner button {
     background-color: var(--bright-blue);
     border: 2px solid white;
-    color: white;
+    color: var(--white);
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -197,7 +209,7 @@ header li:not(.logo):hover {
 footer {
     background-color: var(--dark-blue);
     padding: 30px;
-    color: white;
+    color: var(--white);
     text-align: center;
 }
 
