@@ -110,7 +110,6 @@ header li:not(.logo):hover {
 
 .box-container {
     width: 20%;
-    outline: 1px solid red;
 }
 
 .box-container p {
