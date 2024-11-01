@@ -75,6 +75,10 @@ header li:not(.logo):hover {
     align-self: center;
 }
 
+.feature-text p {
+    color: var(--grey);
+}
+
 .feature-text h1{
     font-size: 48px;
     font-weight: 900;
