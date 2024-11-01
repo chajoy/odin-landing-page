@@ -96,7 +96,7 @@ header li:not(.logo):hover {
     flex-direction: column;
     align-items: center;
     width: 70vw;
-    margin: 40px auto;
+    margin: 100px auto;
     gap: 40px;
 }
 
