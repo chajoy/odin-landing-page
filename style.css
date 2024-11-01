@@ -98,7 +98,32 @@ header li:not(.logo):hover {
     gap: 40px;
 }
 
-.section-middle-top > div {
-    display: flex;
+.section-middle-top h1 {
+    font-size: 2rem;
 }
 
+.section-middle-top > div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.box-container {
+    width: 20%;
+    outline: 1px solid red;
+}
+
+.box-container p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box {
+    min-height: 50px;
+    min-width: 50px;
+    padding: 50% 0;
+    flex: 3;
+    outline: 3px solid var(--bright-blue);
+    outline-offset: -3px;
+    border-radius: 5px;
+}
