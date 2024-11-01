@@ -60,6 +60,7 @@ header li:not(.logo):hover {
     flex-direction: column;
     gap: 20px;
     align-items: flex-start;
+    align-self: center;
 }
 
 .feature-text h1{
@@ -84,7 +85,8 @@ header li:not(.logo):hover {
     align-items: center;
     justify-content: center;
     background-color: grey;
-    min-height: 250px;
+    padding-bottom: 12%;
+    padding-top: 12%
 }
 
 .section-middle-top {
