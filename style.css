@@ -1,6 +1,8 @@
 :root{
     --bright-blue: #3882F6;
     --bright-blue-highlight: #5694f6;
+    --grey: #E5E7Eb;
+    --dark-grey: #B8B8B8;
 }
 
 * {
@@ -84,7 +86,7 @@ header li:not(.logo):hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: grey;
+    background-color: var(--dark-grey);
     padding-bottom: 12%;
     padding-top: 12%
 }
@@ -125,4 +127,27 @@ header li:not(.logo):hover {
     outline: 3px solid var(--bright-blue);
     outline-offset: -3px;
     border-radius: 5px;
+}
+
+.section-middle-bottom {
+    background-color: var(--grey);
+
+}
+
+.quote {
+    width: 70vw;
+    margin: auto;
+    padding: 200px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote blockquote {
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.quote p {
+    font-weight: bold;
+    align-self: flex-end;
 }
