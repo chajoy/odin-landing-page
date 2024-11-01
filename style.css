@@ -151,3 +151,37 @@ header li:not(.logo):hover {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.section-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    width: 70vw;
+}
+
+.banner {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--bright-blue);
+    width: 100%;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.banner button {
+    background-color: var(--bright-blue);
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.banner button:hover {
+    background-color: var(--bright-blue-highlight);
+    cursor: pointer;
+}
+
