@@ -50,6 +50,7 @@ header .logo {
 header li:not(.logo) {
     color: var(--grey);
     font-size: 18px;
+    font-weight: 300;
 }
 
 header li:not(.logo):hover {
