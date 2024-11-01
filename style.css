@@ -13,6 +13,7 @@
 }
 
 body {
+    background-color: var(--dark-blue);
     font-family: "Roboto", sans-serif;
 }
 
@@ -93,22 +94,23 @@ header li:not(.logo):hover {
 }
 
 .section-middle-top {
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70vw;
-    margin: 100px auto;
-    gap: 40px;
+    width: 100%;
 }
 
 .section-middle-top h1 {
     font-size: 2rem;
+    margin-top: 50px;
 }
 
 .section-middle-top > div {
+    margin: 50px auto 100px auto;
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 70vw;
 }
 
 .box-container {
@@ -154,9 +156,14 @@ header li:not(.logo):hover {
 }
 
 .section-bottom {
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+}
+
+.section-bottom > div {
     margin: 100px auto;
     width: 70vw;
 }
@@ -169,6 +176,7 @@ header li:not(.logo):hover {
     gap: 50px;
     background-color: var(--bright-blue);
     width: 80%;
+    margin: auto;
     padding: 50px;
     border-radius: 10px;
 }
