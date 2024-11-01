@@ -167,7 +167,7 @@ header li:not(.logo):hover {
     align-items: center;
     gap: 50px;
     background-color: var(--bright-blue);
-    width: 100%;
+    width: 80%;
     padding: 50px;
     border-radius: 10px;
 }
